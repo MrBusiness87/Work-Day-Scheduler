@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: url(papyrus.jpg);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: .75;
@@ -13,20 +13,25 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: white;
+  color: black;
   font-weight: 600;
-  border-left: 1px solid white;
+  border-left: 1px solid black;
   padding: 10px;
   white-space: pre-wrap;
 }
 
 .jumbotron {
-  height: 250px;
+  height: 275px;
   text-align: center;
-  background-color: black;
-  color: white;
+  background: url(papyrus.jpg);
+  color: black;
   border-radius: 0;
-  border-bottom: 10px solid white;
+  border-bottom: 10px dashed black;
+}
+
+.lead {
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .description {
@@ -43,17 +48,17 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
 }
 
 .hour {
   background-color: black;
   color: white;
-  border-top: 1px dashed white;
+  border-top: 1px dashed black;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: gray;
   color: black;
 }
 
